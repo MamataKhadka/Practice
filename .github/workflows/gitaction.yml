@@ -1,0 +1,9 @@
+name: Practice Github action
+on: workflow_dispatch
+jobs: 
+  first-job: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: printgreetings
+      - run: echo "Welcome"
+      
