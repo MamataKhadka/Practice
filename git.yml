@@ -4,6 +4,6 @@ jobs:
   first-job: 
     runs-on: ubuntu-latest
     steps:
-      - name: printgreetings
-      - run: echo "Welcome"
+      - name: Print Greetings
+        run: echo "Welcome"
       
